@@ -1,0 +1,16 @@
+# Most Important Interview Answer
+
+## What is Kubernetes?
+
+Kubernetes is an open-source container orchestration platform used to automate deployment, scaling, networking, and management of containerized applications.
+
+---
+
+# Difference Between Docker and Kubernetes
+
+| Docker | Kubernetes |
+|---|---|
+| Runs containers | Manages containers |
+| Single host focus | Cluster management |
+| Container runtime | Container orchestration |
+| Manual scaling | Auto scaling |
