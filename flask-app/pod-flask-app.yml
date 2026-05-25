@@ -1,11 +1,11 @@
-kind: pod
-apiVersion: V1
+kind: Pod
+apiVersion: v1
 
 metadata:
    name: flask-app
-specs:
+spec:
    containers:
     - name: flask-app
-      image:
+      image: nginx
       ports:
       - containerPort: 80

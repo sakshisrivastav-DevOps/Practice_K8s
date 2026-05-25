@@ -1,3 +1,29 @@
+Let's create pod first
+
+#kubectl apply -f file.yml
+
+kubectl apply -f pod-flask-app.yml
+
+kubectl get pods
+
+kubectl describe pod flask-app
+
+kubectl
+   ↓
+API Server
+   ↓
+Scheduler
+   ↓
+Worker Node selected
+   ↓
+kubelet creates Pod
+   ↓
+Container runtime pulls image
+   ↓
+Container starts
+
+
+
 kubectl apply -f namespace.yml
 
 kubectl get ns
