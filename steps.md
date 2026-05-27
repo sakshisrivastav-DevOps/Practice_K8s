@@ -17,4 +17,15 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
  
 5. create a kind_config.yml
 
-6. 
+6. kind create cluster --config kind_config.yml
+
+it may give error docker pull image failed something
+
+so run
+
+docker login
+
+kind create cluster --config kind_config.yml
+
+kubectl cluster-info --context kind-my-first-cluster
+

@@ -3,6 +3,9 @@ apiVersion: apps/v1
 
 metadata:
    name: flask-app-deployemnt
+   namespace: flask-app
+   labels:
+     app: flask-app-label
 
 specs:
    replicas: 7
