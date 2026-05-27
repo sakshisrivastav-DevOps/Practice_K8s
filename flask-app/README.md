@@ -8,6 +8,10 @@ kubectl get pods
 
 kubectl describe pod flask-app
 
+#status: pending , so
+docker pull imagename
+kind load docker-image nginx --name my-first-cluster
+
 kubectl
    ↓
 API Server
