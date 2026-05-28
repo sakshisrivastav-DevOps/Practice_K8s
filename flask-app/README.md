@@ -1,3 +1,4 @@
+#namespace --> config maps--> secrets --> pv --> pvc --> deployment --> service
 Let's create pod first
 
 #kubectl apply -f file.yml
